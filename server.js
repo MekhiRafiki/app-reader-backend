@@ -16,10 +16,10 @@ var ObjectId = require('mongodb').ObjectID;
 var port = process.env.PORT || 3000;
 var database, applications;
 
-var MONGO_URL = 'mongodb://XXXXXXXX';
-var APPLICATION_COLLECTION_NAME = 'applications';
-var READERS_COLLECTION_NAME = 'readers';
-var LOGIN_PASSWORD = "password";
+var MONGO_URL = 'mongodb+srv://mekhijones:Playinggames1!@cluster0-tf9yh.mongodb.net/ThePhoenixScholars';
+var APPLICATION_COLLECTION_NAME = 'scholarApplications';
+var READERS_COLLECTION_NAME = 'appReaders';
+var LOGIN_PASSWORD = "Playinggames1!";
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
